@@ -34,9 +34,9 @@ def home_page():
 
     # Define crop images
     crop_images = {
-        "Maize": "../images/maize.jpg",
-        "Beans": "../images/beans.jpg",
-        "Rice": "../images/rice.jpg"
+        "Maize": "./images/maize.jpg",
+        "Beans": "./images/beans.jpg",
+        "Rice": "./images/rice.jpg"
     }
 
     # Display crop images in columns
@@ -117,7 +117,7 @@ def home_page():
 
     # dLab Tanzania information
     with col1:
-        st.image('../images/dlab_logo.png', width=100)
+        st.image('./images/dlab_logo.png', width=100)
         st.write("dLab Tanzania")
         st.write("Address Line: P. O. Box 33335, DSM")
         st.write("Email Address: connect@dlab.or.tz")
