@@ -5,8 +5,8 @@ import seaborn as sns
 import os
 
 # Load your retail and wholesale datasets
-df = pd.read_csv('../data/Clean_food.csv')
-wholesale_df = pd.read_csv('../data/wholesale_prices.csv')  
+df = pd.read_csv('./data/Clean_food.csv')
+wholesale_df = pd.read_csv('./data/wholesale_prices.csv')  
 
 
 # Define a function for the dashboard page
