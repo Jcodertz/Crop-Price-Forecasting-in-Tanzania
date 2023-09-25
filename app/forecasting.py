@@ -228,7 +228,7 @@ def forecasting_page():
 
     # dLab Tanzania information
     with co1:
-        st.image('./images/dlab_logo.png', width=100)
+        st.image('./images/dLab_logo.png', width=100)
         st.write("dLab Tanzania")
         st.write("Address Line: P. O. Box 33335, DSM")
         st.write("Email Address: connect@dlab.or.tz")
