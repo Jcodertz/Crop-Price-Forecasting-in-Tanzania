@@ -41,11 +41,11 @@ def home_page():
 
     # Display crop images in columns
     with col11:
-        st.image(crop_images["Maize"], width=400,  caption="Maize")
+        st.image(crop_images["Maize"], width=200,  caption="Maize")
     with col21:
-        st.image(crop_images["Beans"], width=400, caption="Beans")
+        st.image(crop_images["Beans"], width=200, caption="Beans")
     with col31:
-        st.image(crop_images["Rice"], width=400, caption="Rice")
+        st.image(crop_images["Rice"], width=200, caption="Rice")
 
     crop_data = {
         "Maize": {
