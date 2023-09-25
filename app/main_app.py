@@ -8,7 +8,7 @@ def main():
     st.set_page_config(page_title="Crop Price Forecasting in Tanzania", layout='wide', page_icon='🌾')
 
     # Display an image from a local file
-    image_path = "../images/crop2.png"
+    image_path = "./images/crop2.png"
     st.image(image_path, use_column_width=True)
     
     st.sidebar.title("Navigation")
@@ -16,7 +16,7 @@ def main():
 
     st.sidebar.markdown("---")
 
-    st.sidebar.image('../images/crop.jpg', use_column_width=True, caption='Empowering Agriculture with Data')
+    st.sidebar.image('./images/crop.jpg', use_column_width=True, caption='Empowering Agriculture with Data')
 
     st.sidebar.markdown("---")
 
